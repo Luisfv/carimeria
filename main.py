@@ -13,10 +13,12 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-#
+
 import webapp2
 
+
 class MainHandler(webapp2.RequestHandler):
+
     def get(self):
         self.response.write('Hello world!')
         self.response.write('\n this is where we make video games.')
