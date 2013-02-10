@@ -22,7 +22,7 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         self.response.write('Hello world!')
         self.response.write('\n this is where we make video games.')
-        self.response.write(' hey luis is here! ')
+        self.response.write(' Hey Luis is here! Hey, and Tomo too! WOAHHHHHHHH')
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
